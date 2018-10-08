@@ -1,7 +1,7 @@
 var arr = [
     [1,3,4,24],
     [21,56,78,99],
-    [9,56,3,21]
+    [9,6,3,21]
 ];
 console.log(arr);
 function printArr(arr) {
@@ -17,3 +17,5 @@ function printArr(arr) {
     }
 }
 printArr(arr);
+// 期望输出结果：
+// 1 3 21 4 56 9 24 78 6 99 3 21
